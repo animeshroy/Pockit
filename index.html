@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriFlow - India's Leading AI-Powered Organic Beverage Brand</title>
+    <meta name="description" content="Experience the future of refreshment with NutriFlow. India's first AI-powered organic beverage brand delivering personalized, healthier, and sustainable drink choices.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2563eb">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>NutriFlow</h1>
+                    <span class="tagline">AI-Powered Beverages</span>
+                </div>
+                <nav class="navigation">
+                    <ul class="nav-menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#franchise">Opportunities</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Experience the Future of Refreshment</h1>
+                    <h2 class="hero-subtitle">India's Leading AI-Powered Organic Beverage Brand</h2>
+                    <p class="hero-description">
+                        Delivering personalized, healthier, and sustainable drink choices that fit every lifestyle and every pocket. 
+                        Discover beverages crafted by artificial intelligence for your unique needs.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#products" class="btn-primary">Explore Our Drinks</a>
+                        <a href="#contact" class="btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="product-hero-display">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjQwMCIgdmlld0JveD0iMCAwIDMwMCA0MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iNDAwIiByeD0iMjAiIGZpbGw9InVybCgjZ3JhZGllbnQwX2xpbmVhcl8xXzEpIi8+CjxyZWN0IHg9IjUwIiB5PSI1MCIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIzMDAiIHJ4PSIxMDAiIGZpbGw9InVybCgjZ3JhZGllbnQxX2xpbmVhcl8xXzEpIi8+CjxyZWN0IHg9IjEwMCIgeT0iMTUwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjgwIiByeD0iMTAiIGZpbGw9IndoaXRlIiBmaWxsLW9wYWNpdHk9IjAuOSIvPgo8dGV4dCB4PSIxNTAiIHk9IjE4MCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzMzMzMzMyIgdGV4dC1hbmNob3I9Im1pZGRsZSI+TnV0cmlGbG93PC90ZXh0Pgo8dGV4dCB4PSIxNTAiIHk9IjIwMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSIjNjY2NjY2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5FbmVyZ3krPC90ZXh0Pgo8dGV4dCB4PSIxNTAiIHk9IjIxNSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiBmaWxsPSIjMjU2M2ViIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5BSSBQZXJzb25hbGl6ZWQ8L3RleHQ+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWRpZW50MF9saW5lYXJfMV8xIiB4MT0iMCIgeTE9IjAiIHgyPSIzMDAiIHkyPSI0MDAiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KPHN0b3Agc3RvcC1jb2xvcj0iI2Y4ZmFmYyIvPgo8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNlMmU4ZjAiLz4KPC9saW5lYXJHcmFkaWVudD4KPGxpbmVhckdyYWRpZW50IGlkPSJncmFkaWVudDFfbGluZWFyXzFfMSIgeDE9IjUwIiB5MT0iNTAiIHgyPSIyNTAiIHkyPSIzNTAiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzI1NjNlYiIvPgo8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMzYjgyZjYiLz4KPC9saW5lYXJHcmFkaWVudD4KPC9kZWZzPgo8L3N2Zz4K" alt="NutriFlow Energy+ Bottle" class="hero-product-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>About NutriFlow</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Story</h3>
+                    <p>
+                        NutriFlow was born from a vision to revolutionize the beverage industry through the power of artificial intelligence. 
+                        We recognized that every individual has unique nutritional needs, lifestyle patterns, and taste preferences. 
+                        Traditional beverages follow a one-size-fits-all approach, but we believe in personalization.
+                    </p>
+                    <p>
+                        Founded in 2024, we are India's first AI-powered organic beverage brand, committed to delivering healthier, 
+                        sustainable, and personalized drink choices that adapt to your lifestyle while remaining accessible to every pocket.
+                    </p>
+                    
+                    <h3>Our Mission</h3>
+                    <p>
+                        To be India's leading AI-powered organic & energy beverage brand, delivering personalized, healthier, 
+                        and sustainable drink choices that fit every lifestyle and every pocket.
+                    </p>
+
+                    <h3>Our Vision</h3>
+                    <p>
+                        To create a world where every beverage is perfectly tailored to individual needs, promoting health, 
+                        wellness, and environmental sustainability through cutting-edge AI technology.
+                    </p>
+                </div>
+                <div class="about-features">
+                    <div class="feature-box">
+                        <div class="feature-icon">🤖</div>
+                        <h4>AI-Powered Personalization</h4>
+                        <p>Advanced algorithms analyze your lifestyle, health goals, and preferences to create the perfect beverage blend.</p>
+                    </div>
+                    <div class="feature-box">
+                        <div class="feature-icon">🌱</div>
+                        <h4>100% Organic Ingredients</h4>
+                        <p>Premium organic ingredients sourced directly from certified farms with no artificial additives or preservatives.</p>
+                    </div>
+                    <div class="feature-box">
+                        <div class="feature-icon">♻️</div>
+                        <h4>Sustainable Practices</h4>
+                        <p>Eco-friendly packaging, carbon-neutral delivery, and sustainable sourcing for a better tomorrow.</p>
+                    </div>
+                    <div class="feature-box">
+                        <div class="feature-icon">💰</div>
+                        <h4>Affordable Pricing</h4>
+                        <p>Premium quality at accessible prices starting from just ₹50, making healthy living affordable for everyone.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Product Range</h2>
+                <div class="section-divider"></div>
+                <p>Discover our AI-crafted beverages designed for every lifestyle and need</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card featured">
+                    <div class="product-badge">🚀 Launching Soon</div>
+                    <div class="product-image">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDIwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIyMDAiIGhlaWdodD0iMzAwIiByeD0iMTAwIiBmaWxsPSJ1cmwoI2dyYWRpZW50MF9saW5lYXJfMV8xKSIvPgo8cmVjdCB4PSI1MCIgeT0iMTAwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjgwIiByeD0iMTAiIGZpbGw9IndoaXRlIiBmaWxsLW9wYWNpdHk9IjAuOSIvPgo8dGV4dCB4PSIxMDAiIHk9IjEzMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzMzMzMzMyIgdGV4dC1hbmNob3I9Im1pZGRsZSI+TnV0cmlGbG93PC90ZXh0Pgo8dGV4dCB4PSIxMDAiIHk9IjE1MCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSIjNjY2NjY2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5FbmVyZ3krPC90ZXh0Pgo8dGV4dCB4PSIxMDAiIHk9IjE2NSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiBmaWxsPSIjMjU2M2ViIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5BSSBQZXJzb25hbGl6ZWQ8L3RleHQ+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWRpZW50MF9saW5lYXJfMV8xIiB4MT0iMCIgeTE9IjAiIHgyPSIyMDAiIHkyPSIzMDAiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzI1NjNlYiIvPgo8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMzYjgyZjYiLz4KPC9saW5lYXJHcmFkaWVudD4KPC9kZWZzPgo8L3N2Zz4K" alt="NutriFlow Energy+">
+                    </div>
+                    <div class="product-info">
+                        <h3>NutriFlow Energy+</h3>
+                        <p class="product-subtitle">AI-Personalized Organic Energy Drink</p>
+                        <p class="product-description">
+                            Our flagship product combines AI-optimized caffeine levels with organic green tea extract and natural adaptogens. 
+                            Perfect for sustained energy without the crash, personalized to your caffeine tolerance and energy needs.
+                        </p>
+                        <div class="product-features">
+                            <span class="feature-tag">0g Added Sugar</span>
+                            <span class="feature-tag">Natural Caffeine</span>
+                            <span class="feature-tag">Adaptogenic Herbs</span>
+                            <span class="feature-tag">AI Personalized</span>
+                        </div>
+                        <div class="product-pricing">
+                            <span class="price">₹75</span>
+                            <span class="original-price">₹95</span>
+                            <span class="discount">21% OFF Launch Price</span>
+                        </div>
+                        <button class="btn-product">Pre-Order Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge coming-soon">Coming Soon</div>
+                    <div class="product-image">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDIwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIyMDAiIGhlaWdodD0iMzAwIiByeD0iMTAwIiBmaWxsPSJ1cmwoI2dyYWRpZW50MF9saW5lYXJfMV8xKSIvPgo8cmVjdCB4PSI1MCIgeT0iMTAwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjgwIiByeD0iMTAiIGZpbGw9IndoaXRlIiBmaWxsLW9wYWNpdHk9IjAuOSIvPgo8dGV4dCB4PSIxMDAiIHk9IjEzMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzMzMzMzMyIgdGV4dC1hbmNob3I9Im1pZGRsZSI+TnV0cmlGbG93PC90ZXh0Pgo8dGV4dCB4PSIxMDAiIHk9IjE1MCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSIjNjY2NjY2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5Gb2N1czwvdGV4dD4KPHRleHQgeD0iMTAwIiB5PSIxNjUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgZmlsbD0iIzEwYjk4MSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+Tm9vdHJvcGljIEJsZW5kPC90ZXh0PjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWRpZW50MF9saW5lYXJfMV8xIiB4MT0iMCIgeTE9IjAiIHgyPSIyMDAiIHkyPSIzMDAiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzEwYjk4MSIvPgo8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMzNGQzOTkiLz4KPC9saW5lYXJHcmFkaWVudD4KPC9kZWZzPgo8L3N2Zz4K" alt="NutriFlow Focus">
+                    </div>
+                    <div class="product-info">
+                        <h3>NutriFlow Focus</h3>
+                        <p class="product-subtitle">Mental Clarity & Cognitive Enhancement</p>
+                        <p class="product-description">
+                            Nootropic blend with organic brahmi, ginkgo biloba, and natural compounds designed to enhance 
+                            cognitive performance, memory, and mental clarity.
+                        </p>
+                        <div class="product-features">
+                            <span class="feature-tag">Brain Boosters</span>
+                            <span class="feature-tag">Low Caffeine</span>
+                            <span class="feature-tag">Herbal Blend</span>
+                        </div>
+                        <div class="product-pricing">
+                            <span class="price">₹85</span>
+                        </div>
+                        <button class="btn-product disabled">Notify Me</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge coming-soon">Coming Soon</div>
+                    <div class="product-image">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDIwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIyMDAiIGhlaWdodD0iMzAwIiByeD0iMTAwIiBmaWxsPSJ1cmwoI2dyYWRpZW50MF9saW5lYXJfMV8xKSIvPgo8cmVjdCB4PSI1MCIgeT0iMTAwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjgwIiByeD0iMTAiIGZpbGw9IndoaXRlIiBmaWxsLW9wYWNpdHk9IjAuOSIvPgo8dGV4dCB4PSIxMDAiIHk9IjEzMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzMzMzMzMyIgdGV4dC1hbmNob3I9Im1pZGRsZSI+TnV0cmlGbG93PC90ZXh0Pgo8dGV4dCB4PSIxMDAiIHk9IjE1MCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSIjNjY2NjY2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5XZWxsbmVzczwvdGV4dD4KPHRleHQgeD0iMTAwIiB5PSIxNjUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgZmlsbD0iI2Y1OWUwYiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+SW1tdW5pdHkgQm9vc3Q8L3RleHQ+PGRlZnM+CjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQwX2xpbmVhcl8xXzEiIHgxPSIwIiB5MT0iMCIgeDI9IjIwMCIgeTI9IjMwMCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSIjZjU5ZTBiIi8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZiYmYyNCIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+Cjwvc3ZnPgo=" alt="NutriFlow Wellness">
+                    </div>
+                    <div class="product-info">
+                        <h3>NutriFlow Wellness</h3>
+                        <p class="product-subtitle">Daily Health & Immunity Support</p>
+                        <p class="product-description">
+                            Immunity-boosting blend with turmeric, ginger, vitamin C, and antioxidants designed to support 
+                            overall health and strengthen your immune system naturally.
+                        </p>
+                        <div class="product-features">
+                            <span class="feature-tag">Immunity Boost</span>
+                            <span class="feature-tag">Anti-inflammatory</span>
+                            <span class="feature-tag">Vitamin Rich</span>
+                        </div>
+                        <div class="product-pricing">
+                            <span class="price">₹65</span>
+                        </div>
+                        <button class="btn-product disabled">Notify Me</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge coming-soon">Coming Soon</div>
+                    <div class="product-image">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDIwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIyMDAiIGhlaWdodD0iMzAwIiByeD0iMTAwIiBmaWxsPSJ1cmwoI2dyYWRpZW50MF9saW5lYXJfMV8xKSIvPgo8cmVjdCB4PSI1MCIgeT0iMTAwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjgwIiByeD0iMTAiIGZpbGw9IndoaXRlIiBmaWxsLW9wYWNpdHk9IjAuOSIvPgo8dGV4dCB4PSIxMDAiIHk9IjEzMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzMzMzMzMyIgdGV4dC1hbmNob3I9Im1pZGRsZSI+TnV0cmlGbG93PC90ZXh0Pgo8dGV4dCB4PSIxMDAiIHk9IjE1MCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSIjNjY2NjY2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5SZWNvdmVyeTwvdGV4dD4KPHRleHQgeD0iMTAwIiB5PSIxNjUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgZmlsbD0iIzhiNWNmNiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+UG9zdC1Xb3Jrb3V0PC90ZXh0PjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWRpZW50MF9saW5lYXJfMV8xIiB4MT0iMCIgeTE9IjAiIHgyPSIyMDAiIHkyPSIzMDAiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzhiNWNmNiIvPgo8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNhNzhiZmEiLz4KPC9saW5lYXJHcmFkaWVudD4KPC9kZWZzPgo8L3N2Zz4K" alt="NutriFlow Recovery">
+                    </div>
+                    <div class="product-info">
+                        <h3>NutriFlow Recovery</h3>
+                        <p class="product-subtitle">Post-Workout Muscle Recovery</p>
+                        <p class="product-description">
+                            Electrolyte-rich formula with BCAAs, natural proteins, and recovery compounds designed to 
+                            accelerate muscle recovery and replenish nutrients after intense workouts.
+                        </p>
+                        <div class="product-features">
+                            <span class="feature-tag">Electrolytes</span>
+                            <span class="feature-tag">BCAAs</span>
+                            <span class="feature-tag">Plant Protein</span>
+                        </div>
+                        <div class="product-pricing">
+                            <span class="price">₹90</span>
+                        </div>
+                        <button class="btn-product disabled">Notify Me</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Franchise Opportunities Section -->
+    <section id="franchise" class="franchise-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Business Opportunities</h2>
+                <div class="section-divider"></div>
+                <p>Join the AI beverage revolution and build a profitable business with NutriFlow</p>
+            </div>
+            <div class="franchise-content">
+                <div class="franchise-text">
+                    <h3>Partner with India's First AI-Powered Beverage Brand</h3>
+                    <p>
+                        Be part of the future of beverages. NutriFlow offers exclusive partnership opportunities for 
+                        distributors, retailers, and franchise partners who want to bring AI-powered personalized 
+                        beverages to their communities.
+                    </p>
+                    
+                    <div class="opportunity-types">
+                        <div class="opportunity-card">
+                            <h4>🏪 Retail Partnership</h4>
+                            <p>Stock NutriFlow products in your retail outlet with attractive margins and marketing support.</p>
+                            <ul>
+                                <li>Minimum investment: ₹50,000</li>
+                                <li>30-40% profit margins</li>
+                                <li>Marketing & POS support</li>
+                                <li>Exclusive territory rights</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="opportunity-card">
+                            <h4>🚚 Distribution Partnership</h4>
+                            <p>Become a regional distributor and supply NutriFlow products across your area.</p>
+                            <ul>
+                                <li>Minimum investment: ₹2,00,000</li>
+                                <li>20-25% distributor margins</li>
+                                <li>Logistics support</li>
+                                <li>Regional exclusivity</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="opportunity-card">
+                            <h4>🏢 Franchise Outlet</h4>
+                            <p>Open a dedicated NutriFlow experience center with AI personalization kiosks.</p>
+                            <ul>
+                                <li>Minimum investment: ₹5,00,000</li>
+                                <li>Complete business setup</li>
+                                <li>AI kiosk technology</li>
+                                <li>Ongoing training & support</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="franchise-benefits">
+                        <h4>Why Partner with NutriFlow?</h4>
+                        <div class="benefits-grid">
+                            <div class="benefit-item">
+                                <span class="benefit-icon">🚀</span>
+                                <span>First-mover advantage in AI beverages</span>
+                            </div>
+                            <div class="benefit-item">
+                                <span class="benefit-icon">📈</span>
+                                <span>High-growth market potential</span>
+                            </div>
+                            <div class="benefit-item">
+                                <span class="benefit-icon">🎯</span>
+                                <span>Unique positioning & differentiation</span>
+                            </div>
+                            <div class="benefit-item">
+                                <span class="benefit-icon">🤝</span>
+                                <span>Comprehensive business support</span>
+                            </div>
+                            <div class="benefit-item">
+                                <span class="benefit-icon">💡</span>
+                                <span>Cutting-edge AI technology</span>
+                            </div>
+                            <div class="benefit-item">
+                                <span class="benefit-icon">🌱</span>
+                                <span>Sustainable & organic products</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="section-divider"></div>
+                <p>Ready to experience the future of beverages? Contact us today!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">📍</div>
+                        <h4>Our Office</h4>
+                        <p>
+                            NutriFlow Beverages Pvt. Ltd.<br>
+                            Tech Park, Sector 18<br>
+                            Gurugram, Haryana 122015<br>
+                            India
+                        </p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">📞</div>
+                        <h4>Phone</h4>
+                        <p>
+                            Sales: +91 9876543210<br>
+                            Support: +91 9876543211<br>
+                            Franchise: +91 9876543212
+                        </p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">✉️</div>
+                        <h4>Email</h4>
+                        <p>
+                            General: info@nutriflow.in<br>
+                            Sales: sales@nutriflow.in<br>
+                            Support: support@nutriflow.in<br>
+                            Franchise: franchise@nutriflow.in
+                        </p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">🕒</div>
+                        <h4>Business Hours</h4>
+                        <p>
+                            Monday - Friday: 9:00 AM - 6:00 PM<br>
+                            Saturday: 9:00 AM - 2:00 PM<br>
+                            Sunday: Closed
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Send us a Message</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="product-inquiry">Product Inquiry</option>
+                                <option value="franchise">Franchise Opportunity</option>
+                                <option value="partnership">Business Partnership</option>
+                                <option value="support">Customer Support</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell us how we can help you..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">
+                            Send Message
+                            <div class="button-loader" style="display: none;"></div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>NutriFlow</h3>
+                    <p>India's Leading AI-Powered Organic Beverage Brand</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                        <a href="#" aria-label="YouTube">📺</a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Products</h4>
+                        <ul>
+                            <li><a href="#products">Energy+</a></li>
+                            <li><a href="#products">Focus</a></li>
+                            <li><a href="#products">Wellness</a></li>
+                            <li><a href="#products">Recovery</a></li>
+                            <li><a href="#products">All Products</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Business</h4>
+                        <ul>
+                            <li><a href="#franchise">Franchise</a></li>
+                            <li><a href="#franchise">Distribution</a></li>
+                            <li><a href="#franchise">Retail Partnership</a></li>
+                            <li><a href="#">Bulk Orders</a></li>
+                            <li><a href="#">Corporate Sales</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Shipping Info</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 NutriFlow Beverages Pvt. Ltd. All rights reserved. | Made with ❤️ in India</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
